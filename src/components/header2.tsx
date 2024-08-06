@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Background from "../assets/BG.svg";
 
 const Header = () => {

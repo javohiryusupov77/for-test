@@ -1,4 +1,3 @@
-import React from "react";
 import ImageOfMain from "./images/ImageOfMain.svg";
 
 const Main2 = () => {

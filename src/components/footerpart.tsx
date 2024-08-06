@@ -1,4 +1,3 @@
-import React from "react";
 import personFace from "./images/personFace.svg";
 import bgOfIcond from "../assets/bgOfIcons.svg";
 import Star from "../assets/star.svg";

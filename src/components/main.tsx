@@ -1,4 +1,3 @@
-import React from "react";
 import ImageOfMain from "../components/images/ImageOfMain.svg";
 
 function Main() {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import bgImage from "../assets/BG.svg"
 
 const Header = () => {
