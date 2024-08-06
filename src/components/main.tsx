@@ -1,4 +1,7 @@
 import ImageOfMain from "../components/images/ImageOfMain.svg";
+import image2 from "../assets/image2.svg";
+import image3 from "../assets/image3.svg";
+import image6 from "../assets/image6.svg";
 
 function Main() {
   return (
@@ -8,37 +11,37 @@ function Main() {
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
         <div className="relative col-span-1">
-          <img className="w-full" src={ImageOfMain} alt="ImageOfMain" />
+          <img className="w-full" src={image3} alt="ImageOfMain" />
           <p className="absolute bottom-20 left-0 w-full bg-transparent text-center">
             Для эфирных масел
           </p>
         </div>
         <div className="relative col-span-1">
-          <img className="w-full" src={ImageOfMain} alt="ImageOfMain" />
+          <img className="w-full" src={image2} alt="ImageOfMain" />
           <p className="absolute bottom-20 left-0 w-full bg-transparent text-center">
             Для эфирных масел
           </p>
         </div>
         <div className="relative col-span-1">
-          <img className="w-full" src={ImageOfMain} alt="ImageOfMain" />
+          <img className="w-full" src={image3} alt="ImageOfMain" />
           <p className="absolute bottom-20 left-0 w-full bg-transparent text-center">
             Для эфирных масел
           </p>
         </div>
         <div className="relative col-span-1">
-          <img className="w-full" src={ImageOfMain} alt="ImageOfMain" />
+          <img className="w-full" src={image2} alt="ImageOfMain" />
           <p className="absolute bottom-20 left-0 w-full bg-transparent text-center">
             Для эфирных масел
           </p>
         </div>
         <div className="relative col-span-1">
-          <img className="w-full" src={ImageOfMain} alt="ImageOfMain" />
+          <img className="w-full" src={image3} alt="ImageOfMain" />
           <p className="absolute bottom-20 left-0 w-full bg-transparent text-center">
             Для эфирных масел
           </p>
         </div>
         <div className="relative col-span-1">
-          <img className="w-full" src={ImageOfMain} alt="ImageOfMain" />
+          <img className="w-full" src={image6} alt="ImageOfMain" />
           <p className="absolute bottom-20 left-0 w-full bg-transparent text-center">
             Для эфирных масел
           </p>
@@ -47,7 +50,8 @@ function Main() {
       <div>
         <h1 className="text-5xl text-center">Лучшие продажи</h1>
       </div>
-      <br /><br />
+      <br />
+      <br />
       <div className="grid grid-cols-1 sm:grid-cols-3 bg-slate-100 gap-4">
         <div className="col-span-1">
           <img className="w-full" src={ImageOfMain} alt="ImageOfMain" />
@@ -77,7 +81,8 @@ function Main() {
           </div>
         </div>
       </div>
-      <br /><br />
+      <br />
+      <br />
       <div className="flex justify-center items-center">
         <button className="w-full md:w-1/3 bg-custom-gradient text-white py-2 px-4 rounded mt-4">
           Купить
